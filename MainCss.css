@@ -1,211 +1,317 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    background-color: whitesmoke;
-    display: flex;
-    
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.mainDiv {
+  height: 2000px;
 }
 
 .Menu {
-    position: relative; 
-    display: flex;
-    justify-content: center;
-    width: 105%;
-    height: 120px;
-    background-color: whitesmoke;
-    align-items: center;
-    border-bottom: 3px solid black;
-    left: 165px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 105%;
+  height: 120px;
+  background-color: whitesmoke;
+  align-items: center;
+  border-bottom: 3px solid black;
+  left: 165px;
 }
 
 .Menu nav {
-
-    padding: 0 30 px;
-    text-align: center;
-
+  padding: 0 30 px;
+  text-align: center;
 }
-
 
 .logosettings img {
-    
-    width: 70px;
-    height: 105px;
+  width: 70px;
+  height: 105px;
 }
-
 
 .Menu nav a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.6em;
-    margin: 40px; 
-    margin-right: 40px;
-    transition: 2;
-    transition: all 0.5s ease;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6em;
+  margin: 40px;
+  margin-right: 40px;
+  transition: 2;
+  transition: all 0.5s ease;
 }
-.Menu nav a:hover{
-    color:darkred;
+.Menu nav a:hover {
+  color: darkred;
 }
 
 .WelcomeOne {
-position: relative;
-top: 90px;
-left: 160px;
-height: 235px;
-background-color: #d9d9d9;
-width: 55%;
+  position: relative;
+  top: 90px;
+  left: 160px;
+  height: 235px;
+  background-color: #d9d9d9;
+  width: 55%;
 }
 
-
 .WelcomeOne h1 {
-    font-size: 2em;
-    text-decoration: none;
-    font-weight: normal;
-    position:relative;
-    left: 60px;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: normal;
+  position: relative;
+  left: 60px;
 }
 
 .WelcomeOne h2 {
-    font-size: 1.8em;
-    font-weight: lighter;
-    position: relative;
-    left: 60px;
-    font-family: 'Karla', sans-serif;;
-font-weight: 200;
+  font-size: 1.8em;
+  font-weight: lighter;
+  position: relative;
+  left: 60px;
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
 }
 
 .mainPicture {
-    position: relative;
-    width: 400px;
-    left: 900px;
-    bottom: 150px;
+  position: relative;
+  width: 400px;
+  left: 900px;
+  bottom: 150px;
 }
 
 .mainPicture img {
-    width: 370px;
-    height: 400px;
+  width: 370px;
+  height: 400px;
 }
 
 .mainPicture p {
-position: relative;
-left: 83px;
-font-size: 1.1em;
-width: 219px;
-background-color: lightgray;
+  position: relative;
+  left: 83px;
+  font-size: 1.1em;
+  width: 219px;
+  background-color: lightgray;
 }
 
 .readpoemsimg {
-    position: relative;
-    bottom: 410px;
-    left: 205px;
-
+  position: relative;
+  bottom: 410px;
+  left: 205px;
 }
 
 .readpoemsimg img {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .readpoems {
-    position: relative;
-    left: 170px;
-    bottom: 290px;
+  position: relative;
+  left: 170px;
+  bottom: 290px;
 }
 
 .readpoems a {
-    text-decoration: none;
-    font-size: 1.8em;
-    color: #830C0C;
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #830c0c;
 }
 
 .linemainpage {
-    position: relative;
-    border-bottom: 2px solid black;
-    width: 900px;
-    bottom: 610px;
-    left: 300px;
-
+  position: relative;
+  border-bottom: 2px solid black;
+  width: 900px;
+  bottom: 610px;
+  left: 300px;
 }
 
 .search {
-    position: relative;
-    bottom: 750px;
-    left: 900px;
-    width: 100px;
+  position: relative;
+  bottom: 750px;
+  left: 900px;
+  width: 100px;
 }
 
 .search input {
-   background: transparent;
-   border: none;
-   outline: none;
+  background: transparent;
+  border: none;
+  outline: none;
 }
 
 .searchimg img {
-    width: 160px;
-    height: 150px;
-    z-index: -1;
+  width: 160px;
+  height: 150px;
+  z-index: -1;
 }
 
 .searchimg {
-    position: relative;
-    bottom: 1245px;
-    left: 1100px;
-    width: 200px;
-    z-index: -1;
+  position: relative;
+  bottom: 1245px;
+  left: 1100px;
+  width: 200px;
+  z-index: -1;
 }
 
 .maintitle2 {
-    position: relative;
-    bottom: 680px;
-    left: 295px;
+  position: relative;
+  bottom: 680px;
+  left: 295px;
 }
 
 .maintitle2 p {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .brieflybio {
-    position: relative;
-    background-color: #d9d9d9;
-    width: 1050px;
-    height: 300px;
-    bottom: 660px;
-    left: 220px;
+  position: relative;
+  background-color: #d9d9d9;
+  width: 1050px;
+  height: 300px;
+  bottom: 660px;
+  left: 220px;
 }
 
 .brieflybio p {
-    position: relative;
-    font-size: 1.6em;
-    left: 80px;
-    top: 30px;
-    font-family: 'Karla', sans-serif;;
-font-weight: 200;
+  position: relative;
+  font-size: 1.6em;
+  left: 80px;
+  top: 30px;
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
 }
 
 .signature {
-    background-color: #EBDFDF;
-    position: relative;
-    bottom: 650px;
-    width: 200px;
-    height: 120px;
-left: 300px;
+  background-color: #ebdfdf;
+  position: relative;
+  bottom: 650px;
+  width: 200px;
+  height: 120px;
+  left: 300px;
 }
 
 .signature img {
-    width: 190px;
-    height: 110px;
+  width: 190px;
+  height: 110px;
 }
 
 .sigOfMih {
-    width: 290px;
-    position: relative;
-    bottom: 640px;
-    left: 300px;
+  width: 290px;
+  position: relative;
+  bottom: 640px;
+  left: 300px;
 }
 
 .sigOfMih p {
-    font-size: 0.8em;
+  font-size: 0.8em;
+}
+
+.footOfSite {
+  position: relative;
+  width: 120%;
+  height: 455px;
+  background-color: #413e3e;
+  left: 100px;
+  top: 485px;
+}
+
+.footLogo {
+  position: relative;
+  bottom: 320px;
+  left: -150px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+}
+
+.footLogo img {
+  height: 120px;
+  width: 80px;
+}
+
+.Region {
+  width: 350px;
+}
+
+.Region p {
+  color: white;
+  position: relative;
+  left: 250px;
+  top: 55px;
+  font-size: 18px;
+}
+
+.Region img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 204px;
+  top: 30px;
+}
+
+.FootSPW {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 475px;
+  top: 100px;
+  width: 200px;
+}
+
+.FootSPW a {
+  color: white;
+  font-size: 17px;
+  height: 35px;
+}
+
+.FootFun {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 210px;
+  width: 200px;
+  bottom: 5px;
+}
+
+.FootFun a {
+  color: white;
+  font-size: 17px;
+  height: 35px;
+}
+
+iframe {
+  position: relative;
+  bottom: 800px;
+  left: 320px;
+  width: 900px;
+  height: 500px;
+  z-index: 1;
+}
+
+.videosline {
+  position: relative;
+  bottom: 950px;
+  left: 460px;
+  width: 300px;
+}
+.videosline img {
+  width: 600px;
+  z-index: -2;
+}
+
+.line2 {
+  position: relative;
+  bottom: 1950px;
+  left: 590px;
+  width: 700px;
+}
+
+.line2 img {
+  width: 400px;
+  z-index: -1;
+}
+
+.line2 p {
+  color: black;
+  position: relative;
+  bottom: 220px;
 }
