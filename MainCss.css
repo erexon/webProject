@@ -7,13 +7,22 @@
 body {
   background-color: whitesmoke;
   display: flex;
+  
 }
 
 .mainDiv {
-  height: 2000px;
+  height: 2200px;
+  margin: auto;
+}
+
+.menuwr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Menu {
+  
   position: relative;
   display: flex;
   justify-content: center;
@@ -22,7 +31,7 @@ body {
   background-color: whitesmoke;
   align-items: center;
   border-bottom: 3px solid black;
-  left: 165px;
+  /* left: 165px; */
 }
 
 .Menu nav {
@@ -44,17 +53,18 @@ body {
   transition: 2;
   transition: all 0.5s ease;
 }
+
 .Menu nav a:hover {
   color: darkred;
 }
 
 .WelcomeOne {
   position: relative;
-  top: 90px;
-  left: 160px;
+  top: 120px;
+ /* left: 160px; */
   height: 235px;
   background-color: #d9d9d9;
-  width: 55%;
+  width: 60%;
 }
 
 .WelcomeOne h1 {
@@ -75,15 +85,18 @@ body {
 }
 
 .mainPicture {
+  
   position: relative;
   width: 400px;
-  left: 900px;
+  /*left: 900px; */
   bottom: 150px;
+  padding-left: 740px;
 }
 
 .mainPicture img {
   width: 370px;
   height: 400px;
+
 }
 
 .mainPicture p {
@@ -97,7 +110,8 @@ body {
 .readpoemsimg {
   position: relative;
   bottom: 410px;
-  left: 205px;
+  padding-left: 80px;
+  /* left: 205px; */
 }
 
 .readpoemsimg img {
@@ -107,8 +121,9 @@ body {
 
 .readpoems {
   position: relative;
-  left: 170px;
+  /* left: 170px; */
   bottom: 290px;
+  padding-left: 165px;
 }
 
 .readpoems a {
@@ -117,19 +132,28 @@ body {
   color: #830c0c;
 }
 
+.linepageW {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .linemainpage {
+
   position: relative;
-  border-bottom: 2px solid black;
-  width: 900px;
+  border-bottom: 1px solid black;
+  border-top: none;
+  width: 1100px;
   bottom: 610px;
-  left: 300px;
+  /* left: 300px; */
 }
 
 .search {
   position: relative;
   bottom: 750px;
-  left: 900px;
+  /*left: 900px; */
   width: 100px;
+  float: right;
 }
 
 .search input {
@@ -138,24 +162,21 @@ body {
   outline: none;
 }
 
-.searchimg img {
-  width: 160px;
+
+.search img {
+  right: 4px;
+  width: 155px;
   height: 150px;
   z-index: -1;
+  position: relative;
+  bottom: 83px;
 }
 
-.searchimg {
-  position: relative;
-  bottom: 1245px;
-  left: 1100px;
-  width: 200px;
-  z-index: -1;
-}
 
 .maintitle2 {
   position: relative;
-  bottom: 680px;
-  left: 295px;
+  bottom: 510px;
+ /* left: 295px; */
 }
 
 .maintitle2 p {
@@ -163,12 +184,13 @@ body {
 }
 
 .brieflybio {
+  margin: auto;
   position: relative;
   background-color: #d9d9d9;
-  width: 1050px;
+  width: 1101px;
   height: 300px;
-  bottom: 660px;
-  left: 220px;
+  bottom: 500px;
+  /* left: 220px; */
 }
 
 .brieflybio p {
@@ -183,10 +205,10 @@ body {
 .signature {
   background-color: #ebdfdf;
   position: relative;
-  bottom: 650px;
+  bottom: 490px;
   width: 200px;
   height: 120px;
-  left: 300px;
+ /* left: 300px; */
 }
 
 .signature img {
@@ -197,21 +219,30 @@ body {
 .sigOfMih {
   width: 290px;
   position: relative;
-  bottom: 640px;
-  left: 300px;
+  bottom: 490px;
+  /* left: 300px; */
 }
 
 .sigOfMih p {
   font-size: 0.8em;
 }
 
+.footwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .footOfSite {
-  position: relative;
-  width: 120%;
+ 
+ position: absolute;
+  width: 95%;
   height: 455px;
   background-color: #413e3e;
-  left: 100px;
-  top: 485px;
+/*  left: 100px; */
+  top: 2200px;
+ 
 }
 
 .footLogo {
@@ -278,40 +309,64 @@ body {
   height: 35px;
 }
 
+.iframew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 iframe {
   position: relative;
-  bottom: 800px;
-  left: 320px;
+  bottom: 350px;
+ /* left: 320px; */
   width: 900px;
   height: 500px;
   z-index: 1;
 }
 
+
 .videosline {
   position: relative;
-  bottom: 950px;
-  left: 460px;
+  bottom: 430px;
+  /* left: 460px; */
   width: 300px;
+  position: relative;
+  margin-left: 250px; 
+  
 }
 .videosline img {
   width: 600px;
   z-index: -2;
 }
 
+.line2w {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  bottom: 1350px; 
+  height: 150px;
+  width: 500px;
+  margin: auto;
+}
+
 .line2 {
   position: relative;
-  bottom: 1950px;
-  left: 590px;
+  bottom: 0px;
+  /* left: 590px; */
   width: 700px;
 }
 
 .line2 img {
   width: 400px;
   z-index: -1;
+  position: relative;
+  left: 40px;
 }
 
 .line2 p {
   color: black;
   position: relative;
   bottom: 220px;
+  text-align: center;
 }
