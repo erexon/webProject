@@ -7,7 +7,6 @@
 body {
   background-color: whitesmoke;
   display: flex;
-  
 }
 
 .mainDiv {
@@ -22,7 +21,6 @@ body {
 }
 
 .Menu {
-  
   position: relative;
   display: flex;
   justify-content: center;
@@ -42,6 +40,8 @@ body {
 .logosettings img {
   width: 70px;
   height: 105px;
+  position: relative;
+  left: 20px;
 }
 
 .Menu nav a {
@@ -61,7 +61,7 @@ body {
 .WelcomeOne {
   position: relative;
   top: 120px;
- /* left: 160px; */
+  /* left: 160px; */
   height: 235px;
   background-color: #d9d9d9;
   width: 60%;
@@ -85,7 +85,6 @@ body {
 }
 
 .mainPicture {
-  
   position: relative;
   width: 400px;
   /*left: 900px; */
@@ -96,7 +95,6 @@ body {
 .mainPicture img {
   width: 370px;
   height: 400px;
-
 }
 
 .mainPicture p {
@@ -111,7 +109,6 @@ body {
   position: relative;
   bottom: 410px;
   padding-left: 80px;
-  /* left: 205px; */
 }
 
 .readpoemsimg img {
@@ -130,6 +127,11 @@ body {
   text-decoration: none;
   font-size: 1.8em;
   color: #830c0c;
+  transition: all 0.3s ease;
+}
+
+.readpoems a:hover {
+  color: lightcoral;
 }
 
 .linepageW {
@@ -139,12 +141,11 @@ body {
 }
 
 .linemainpage {
-
   position: relative;
   border-bottom: 1px solid black;
   border-top: none;
-  width: 1100px;
-  bottom: 610px;
+  width: 100%;
+  bottom: 590px;
   /* left: 300px; */
 }
 
@@ -162,7 +163,6 @@ body {
   outline: none;
 }
 
-
 .search img {
   right: 4px;
   width: 155px;
@@ -172,11 +172,10 @@ body {
   bottom: 83px;
 }
 
-
 .maintitle2 {
   position: relative;
   bottom: 510px;
- /* left: 295px; */
+  /* left: 295px; */
 }
 
 .maintitle2 p {
@@ -208,7 +207,7 @@ body {
   bottom: 490px;
   width: 200px;
   height: 120px;
- /* left: 300px; */
+  /* left: 300px; */
 }
 
 .signature img {
@@ -231,18 +230,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .footOfSite {
- 
- position: absolute;
+  position: absolute;
   width: 95%;
   height: 455px;
   background-color: #413e3e;
-/*  left: 100px; */
+  /*  left: 100px; */
   top: 2200px;
- 
 }
 
 .footLogo {
@@ -318,12 +314,11 @@ body {
 iframe {
   position: relative;
   bottom: 350px;
- /* left: 320px; */
+  /* left: 320px; */
   width: 900px;
   height: 500px;
   z-index: 1;
 }
-
 
 .videosline {
   position: relative;
@@ -331,8 +326,7 @@ iframe {
   /* left: 460px; */
   width: 300px;
   position: relative;
-  margin-left: 250px; 
-  
+  margin-left: 250px;
 }
 .videosline img {
   width: 600px;
@@ -343,8 +337,8 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; 
-  bottom: 1350px; 
+  position: relative;
+  bottom: 1350px;
   height: 150px;
   width: 500px;
   margin: auto;
