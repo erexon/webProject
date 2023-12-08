@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    display: flex;
+  }
+  
+  .mainDiv {
+    height: 2200px;
+    margin: auto;
+  }
+  
+  .menuwr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 105%;
+    height: 120px;
+    background-color: whitesmoke;
+    align-items: center;
+    border-bottom: 3px solid black;
+    /* left: 165px; */
+  }
+  
+  .Menu nav {
+    padding: 0 30 px;
+    text-align: center;
+  }
+  
+  .logosettings img {
+    width: 70px;
+    height: 105px;
+    position: relative;
+    left: 20px;
+  }
+  
+  .Menu nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 40px;
+    margin-right: 40px;
+    transition: 2;
+    transition: all 0.5s ease;
+  }
+  
+  .Menu nav a:hover {
+    color: darkred;
+  }
+
+  .Biography {
+    position: relative;
+    top: 180px;
+    width: 750px;
+    height: 870px;
+    background-color: lightgrey;
+  }
+
+  .Biography p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 1.6em;
+  }
+
+  .img1 {
+    position: relative;
+    bottom: 700px;
+    padding-left: 79%;
+    
+  }
+
+  .img1 img {
+    width: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .poemsTitle {
+    position: relative;
+    bottom: 1250px;
+  }
+  
+  .poemsTitle p {
+    color: darkred;
+    font-size: 35px;
+    padding-left: 32px;
+  }
+  
+  .poemsTitle img {
+    position: relative;
+    width: 200px;
+    bottom: 40px;
+  }
+ 
+  .contForInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 300px;
+  }
+
+  .contForInfo p {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
